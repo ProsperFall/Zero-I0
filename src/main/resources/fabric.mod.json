@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "zero-i2",
+  "version": "${version}",
+  "name": "ZeroI2",
+  "description": "An addon aim for full afk.",
+  "authors": [
+    "ProChan"
+  ],
+  "contact": {
+    "sources": "null"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.prochan.ZeroI2"
+    ]
+  },
+  "mixins": [
+    "zeroi2.mixins.json"
+  ],
+  "accessWidener": "pop-pack.accesswidener",
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}", "1.21.9"],
+    "meteor-client": "*"
+  }
+}

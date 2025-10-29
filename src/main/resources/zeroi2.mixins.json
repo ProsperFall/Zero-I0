@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.prochan.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "HandledScreensMixin",
+    "HandledScreensMixin$ScreenHandlerProviderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
